@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Order-Calculator/static/css/main.16a1b0d4.chunk.css",
+    "main.js": "/Order-Calculator/static/js/main.e90bd35b.chunk.js",
+    "main.js.map": "/Order-Calculator/static/js/main.e90bd35b.chunk.js.map",
+    "runtime-main.js": "/Order-Calculator/static/js/runtime-main.e39820e6.js",
+    "runtime-main.js.map": "/Order-Calculator/static/js/runtime-main.e39820e6.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/Order-Calculator/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.3e261e6f.chunk.js": "/Order-Calculator/static/js/2.3e261e6f.chunk.js",
+    "static/js/2.3e261e6f.chunk.js.map": "/Order-Calculator/static/js/2.3e261e6f.chunk.js.map",
+    "static/js/3.d8c7e843.chunk.js": "/Order-Calculator/static/js/3.d8c7e843.chunk.js",
+    "static/js/3.d8c7e843.chunk.js.map": "/Order-Calculator/static/js/3.d8c7e843.chunk.js.map",
+    "index.html": "/Order-Calculator/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/Order-Calculator/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.16a1b0d4.chunk.css.map": "/Order-Calculator/static/css/main.16a1b0d4.chunk.css.map",
+    "static/js/2.3e261e6f.chunk.js.LICENSE.txt": "/Order-Calculator/static/js/2.3e261e6f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e39820e6.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.3e261e6f.chunk.js",
+    "static/css/main.16a1b0d4.chunk.css",
+    "static/js/main.e90bd35b.chunk.js"
+  ]
+}
