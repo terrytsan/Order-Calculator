@@ -9,16 +9,12 @@ import OrderSummaryModal from "./components/OrderSummaryModal";
 import SearchBar from "./components/SearchBar";
 import ContactNumberInput from "./components/ContactNumberInput";
 import DestinationSelector from "./components/DestinationSelector";
+import items from "./items.json";
 
 class App extends Component {
 	state = {
 		selectedItems: [],
-		originalItems: [{"id": 1, "name": "Rice", "price": 1.20, "modifiers": []},
-			{"id": 2, "name": "Duck", "price": 1.40, "modifiers": []},
-			{"id": 3, "name": "Fish", "price": 4.30, "modifiers": []},
-			{"id": 4, "name": "Crab", "price": 7.10, "modifiers": []},
-			{"id": 5, "name": "Chicken", "price": 7.10, "modifiers": []},
-			{"id": 6, "name": "Pork", "price": 2.60, "modifiers": []}],
+		originalItems: items.items,
 		// List of items for search bar
 		filteredItems: [],
 		itemModifiers: [{"id": 1, "description": "No Veg"}, {"id": 2, "description": "No Pork"}, {
