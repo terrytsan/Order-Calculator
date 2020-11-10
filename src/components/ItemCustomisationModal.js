@@ -2,7 +2,7 @@ import {Button, Modal} from "react-bootstrap";
 import React from "react";
 import ModifierButton from "./ModifierButton";
 
-function ItemCustomisationModal({modalShow, modifiers, handleModalClose, selectedItem, handleAddItemModifierButtonClick, handleRemoveItemModifierButtonClick, handleAddCustomisedItemClick}) {
+function ItemCustomisationModal({modalShow, modifiers, handleModalClose, selectedItem, handleAddItemModifierButtonClick, handleRemoveItemModifierButtonClick, handleAddCustomisedItemClick, handleItemNotesOnChange}) {
 	return (
 		// animation set to false to avoid "findDOMNode is deprecated in StrictMode" error
 		<Modal show={modalShow} onHide={handleModalClose} animation={false} centered>
@@ -16,6 +16,8 @@ function ItemCustomisationModal({modalShow, modifiers, handleModalClose, selecte
 														   selectedItem={selectedItem}
 														   handleAddItemModifierButtonClick={handleAddItemModifierButtonClick}
 														   handleRemoveItemModifierButtonClick={handleRemoveItemModifierButtonClick}/>)}
+				<input onChange={handleItemNotesOnChange} type="text" placeholder="Notes"
+					   style={{marginTop: "5px", marginLeft: "3px"}}/>
 				<hr style={{width: '95%'}}/>
 				<Button onClick={handleAddCustomisedItemClick}>Add</Button>
 			</Modal.Body>

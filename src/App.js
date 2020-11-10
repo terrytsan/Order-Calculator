@@ -23,6 +23,7 @@ class App extends Component {
 		showItemCustomisationModal: false,
 		// The item that's about to be modified
 		currentItem: {"id": "0", "name": "", "price": 0, "modifiers": []},
+		currentItemNotes: "",
 		showOrderSummaryModal: false,
 		contactNumber: "",
 		// If false, order is a delivery
@@ -167,6 +168,17 @@ class App extends Component {
 		this.setState({deliveryCharge: charge});
 	};
 
+	// Handles the item notes box changing in ItemCustomisationModal
+	handleItemNotesOnChange = (event) => {
+		let itemNotes = event.target.value;
+
+		this.setState({currentItemNotes: itemNotes});
+		// Get the current item and add a notes field to it
+		let updatedItem = this.state.currentItem;
+		updatedItem.notes = itemNotes;
+		this.setState({currentItem: updatedItem});
+	};
+
 	render() {
 		return (
 			<div>
@@ -204,6 +216,7 @@ class App extends Component {
 										handleAddItemModifierButtonClick={this.handleAddItemModifierButtonClick}
 										handleRemoveItemModifierButtonClick={this.handleRemoveItemModifierButtonClick}
 										handleAddCustomisedItemClick={this.handleAddCustomisedItemClick}
+										handleItemNotesOnChange={this.handleItemNotesOnChange}
 				/>
 				<OrderSummaryModal modalShow={this.state.showOrderSummaryModal}
 								   handleModalClose={this.handleOrderSummaryModalClose}

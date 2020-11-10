@@ -19,9 +19,10 @@ function createItemSummary(itemCountObj) {
 		let num = itemCountObj[item];
 		// parse into object
 		let object = JSON.parse(item);
-		itemSummary = itemSummary.concat(num + "x " + object.name + " " + object.modifiers.reduce((result, item) => {
-			return `${result} ${item.description}`;
-		}, ""));
+		let test = object.notes !== undefined ? object.notes : "";
+		itemSummary = itemSummary.concat(num + "x " + object.name + " " + object.modifiers.reduce((result, modifier) => {
+			return `${result} ${modifier.description}`;
+		}, "") + test);
 	});
 	return (
 		<div>
