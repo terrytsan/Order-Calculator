@@ -30,8 +30,15 @@ function createItemSummary(itemCountObj) {
 	);
 }
 
-function OrderSummaryModal({modalShow, handleModalClose, selectedItems, contactNumber, address}) {
+function OrderSummaryModal({modalShow, handleModalClose, selectedItems, contactNumber, address, deliveryCharge}) {
 	let countedItems = countUniqueItems(selectedItems);
+
+	// Conditionally render delivery charge component
+	let deliveryChargeOutput;
+	if (deliveryCharge !== 0) {
+		deliveryChargeOutput = <p style={{marginBottom: "0"}}>Delivery Charge £{deliveryCharge.toFixed(2)}</p>;
+	}
+
 	return (
 		// animation set to false to avoid "findDOMNode is deprecated in StrictMode" error
 		<Modal show={modalShow} onHide={handleModalClose} animation={false} centered>
@@ -44,8 +51,9 @@ function OrderSummaryModal({modalShow, handleModalClose, selectedItems, contactN
 
 				{createItemSummary(countedItems)}
 				<hr style={{width: '95%'}}/>
-				<p style={{fontWeight: "bold", fontSize: "large"}}>Total Cost
-					£{selectedItems.reduce((total, item) => total + item.price, 0).toFixed(2)}</p>
+				{deliveryChargeOutput}
+				<p style={{fontWeight: "bold", fontSize: "large", marginTop: "0", marginBottom: "0"}}>Total Cost
+					£{(selectedItems.reduce((total, item) => total + item.price, 0) + deliveryCharge).toFixed(2)}</p>
 			</Modal.Body>
 		</Modal>
 	);

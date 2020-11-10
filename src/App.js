@@ -27,7 +27,8 @@ class App extends Component {
 		contactNumber: "",
 		// If false, order is a delivery
 		isCollection: true,
-		address: ""
+		address: "",
+		deliveryCharge: 0
 	};
 
 	componentDidMount() {
@@ -140,11 +141,12 @@ class App extends Component {
 		switch (destination) {
 			case 'collection':
 				this.setState({isCollection: true});
+				// Reset the address and delivery charge field
+				this.setState({address: ""});
+				this.setState({deliveryCharge: 0});
 				break;
 			case 'delivery':
 				this.setState({isCollection: false});
-				// Reset the address field
-				this.setState({address: ""});
 				break;
 			default:
 				console.log("Invalid destination selected");
@@ -158,6 +160,13 @@ class App extends Component {
 		this.setState({address: inputAddress});
 	};
 
+	handleDeliveryChargeInputChange = (event) => {
+		// NaN evaluates to false - thus returns 0
+		let charge = parseFloat(event.target.value) || 0;
+
+		this.setState({deliveryCharge: charge});
+	};
+
 	render() {
 		return (
 			<div>
@@ -165,10 +174,11 @@ class App extends Component {
 					<Row>
 						<Col>
 							{/*<h1>Hello World</h1>*/}
+							<ContactNumberInput onChange={this.handleContactNumberChange}/>
 							<DestinationSelector isCollection={this.state.isCollection}
 												 onclickHandler={this.handleDestinationButtonClick}
-												 onAddressInputChange={this.handleAddressInputChange}/>
-							<ContactNumberInput onChange={this.handleContactNumberChange}/>
+												 onAddressInputChange={this.handleAddressInputChange}
+												 onDeliveryChargeInputChange={this.handleDeliveryChargeInputChange}/>
 							<SearchBar onChange={this.handleSearchBarChange}/>
 						</Col>
 					</Row>
@@ -182,9 +192,10 @@ class App extends Component {
 				</Container>
 
 				<footer className="footer">
-					<OrderSummary totalPrice={this.state.selectedItems.reduce((total, item) => total + item.price, 0)}
-								  totalNumItems={this.state.selectedItems.length}
-								  handleOrderSummaryClick={this.handleOrderSummaryFooterClick}/>
+					<OrderSummary
+						totalPrice={this.state.selectedItems.reduce((total, item) => total + item.price, 0) + this.state.deliveryCharge}
+						totalNumItems={this.state.selectedItems.length}
+						handleOrderSummaryClick={this.handleOrderSummaryFooterClick}/>
 				</footer>
 				<ItemCustomisationModal selectedItem={this.state.currentItem}
 										modifiers={this.state.itemModifiers}
@@ -199,6 +210,7 @@ class App extends Component {
 								   selectedItems={this.state.selectedItems}
 								   contactNumber={this.state.contactNumber}
 								   address={this.state.address}
+								   deliveryCharge={this.state.deliveryCharge}
 				/>
 			</div>
 		);

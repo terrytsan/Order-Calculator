@@ -8,7 +8,7 @@ function SearchBar({onChange}) {
 
 const inputStyle = {
 	marginBottom: '5px',
-	marginTop: '5px',
+	marginTop: '6px',
 	width: '100%'
 };
 
