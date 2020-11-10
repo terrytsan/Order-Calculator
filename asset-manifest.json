@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Order-Calculator/static/css/main.c52e2d31.chunk.css",
-    "main.js": "/Order-Calculator/static/js/main.7b56680f.chunk.js",
-    "main.js.map": "/Order-Calculator/static/js/main.7b56680f.chunk.js.map",
+    "main.css": "/Order-Calculator/static/css/main.392bfe46.chunk.css",
+    "main.js": "/Order-Calculator/static/js/main.4be6bb05.chunk.js",
+    "main.js.map": "/Order-Calculator/static/js/main.4be6bb05.chunk.js.map",
     "runtime-main.js": "/Order-Calculator/static/js/runtime-main.8f19674f.js",
     "runtime-main.js.map": "/Order-Calculator/static/js/runtime-main.8f19674f.js.map",
     "static/css/2.1a02f21c.chunk.css": "/Order-Calculator/static/css/2.1a02f21c.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.3232ff09.chunk.js.map": "/Order-Calculator/static/js/3.3232ff09.chunk.js.map",
     "index.html": "/Order-Calculator/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/Order-Calculator/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.c52e2d31.chunk.css.map": "/Order-Calculator/static/css/main.c52e2d31.chunk.css.map",
+    "static/css/main.392bfe46.chunk.css.map": "/Order-Calculator/static/css/main.392bfe46.chunk.css.map",
     "static/js/2.d4b39d10.chunk.js.LICENSE.txt": "/Order-Calculator/static/js/2.d4b39d10.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8f19674f.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.d4b39d10.chunk.js",
-    "static/css/main.c52e2d31.chunk.css",
-    "static/js/main.7b56680f.chunk.js"
+    "static/css/main.392bfe46.chunk.css",
+    "static/js/main.4be6bb05.chunk.js"
   ]
 }
