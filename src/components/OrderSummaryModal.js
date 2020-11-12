@@ -1,5 +1,6 @@
-import {Modal} from "react-bootstrap";
+import {Button, Col, Modal} from "react-bootstrap";
 import React from "react";
+import {XCircleIcon} from '@primer/octicons-react';
 
 // Return an object. key: JSON.stringify(item) value: count of the item
 function countUniqueItems(items) {
@@ -13,7 +14,8 @@ function countUniqueItems(items) {
 }
 
 // Given an object (with item and count), create the text summary of items
-function createItemSummary(itemCountObj) {
+function createItemSummary(itemCountObj, handleRemoveItemOnClick) {
+	// Holds a list of summarised items (in human readable form)
 	let itemSummary = [];
 	Object.keys(itemCountObj).forEach((item) => {
 		let num = itemCountObj[item];
@@ -26,12 +28,28 @@ function createItemSummary(itemCountObj) {
 	});
 	return (
 		<div>
-			{itemSummary.map((item, i) => <p key={i}>{item}</p>)}
+			{itemSummary.map((item, i) =>
+				<div key={i + "div"} className="row" style={{paddingTop: "3px", paddingBottom: "3px"}}>
+					<Col xs={10} style={{paddingRight: "0", display: "flex", alignItems: "center"}}>
+						<p key={i + "itemText"}
+						   style={{fontSize: "small", verticalAlign: "middle", marginBottom: "0"}}>{item}</p>
+					</Col>
+					<Col style={{
+						paddingLeft: "0", paddingRight: "5px", display: "flex", flexDirection: "column",
+						justifyContent: "center"
+					}}>
+						<Button key={i} variant={"danger"} style={removeButtonStyle} onClick={() => {
+							// Pass the item that should be removed
+							handleRemoveItemOnClick(JSON.parse(Object.keys(itemCountObj)[i]));
+						}}> <XCircleIcon size={16}/></Button>
+					</Col>
+				</div>
+			)}
 		</div>
 	);
 }
 
-function OrderSummaryModal({modalShow, handleModalClose, selectedItems, contactNumber, address, deliveryCharge}) {
+function OrderSummaryModal({modalShow, handleModalClose, selectedItems, contactNumber, address, deliveryCharge, handleRemoveItemOnClick}) {
 	let countedItems = countUniqueItems(selectedItems);
 
 	// Conditionally render delivery charge component
@@ -50,7 +68,7 @@ function OrderSummaryModal({modalShow, handleModalClose, selectedItems, contactN
 				<p style={{fontWeight: "bold"}}>{contactNumber}</p>
 				<p style={{fontWeight: "bold"}}>{address}</p>
 
-				{createItemSummary(countedItems)}
+				{createItemSummary(countedItems, handleRemoveItemOnClick)}
 				<hr style={{width: '95%'}}/>
 				{deliveryChargeOutput}
 				<p style={{fontWeight: "bold", fontSize: "large", marginTop: "0", marginBottom: "0"}}>Total Cost
@@ -60,4 +78,12 @@ function OrderSummaryModal({modalShow, handleModalClose, selectedItems, contactN
 	);
 }
 
+const removeButtonStyle = {
+	fontSize: 'small',
+	paddingLeft: '5px',
+	paddingRight: '5px',
+	alignItems: 'center',
+	alignSelf: 'flex-end',
+	verticalAlign: 'middle'
+};
 export default OrderSummaryModal;

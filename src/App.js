@@ -179,6 +179,15 @@ class App extends Component {
 		this.setState({currentItem: updatedItem});
 	};
 
+	// Handles remove button click in order summary modal
+	handleRemoveItemOnClick = (item) => {
+		// Find the index of the item to be removed
+		let indexToRemove = this.state.selectedItems.findIndex(i => JSON.stringify(i) === JSON.stringify(item));
+
+		// Remove the item from the list
+		this.setState({selectedItems: this.state.selectedItems.filter((_, i) => i !== indexToRemove)});
+	};
+
 	render() {
 		return (
 			<div>
@@ -224,6 +233,7 @@ class App extends Component {
 								   contactNumber={this.state.contactNumber}
 								   address={this.state.address}
 								   deliveryCharge={this.state.deliveryCharge}
+								   handleRemoveItemOnClick={this.handleRemoveItemOnClick}
 				/>
 			</div>
 		);
