@@ -21,10 +21,10 @@ function createItemSummary(itemCountObj, handleRemoveItemOnClick) {
 		let num = itemCountObj[item];
 		// parse into object
 		let object = JSON.parse(item);
-		let test = object.notes !== undefined ? object.notes : "";
-		itemSummary = itemSummary.concat(num + "x " + object.name + " " + object.modifiers.reduce((result, modifier) => {
+		let notes = object.notes !== undefined ? object.notes : "";
+		itemSummary = itemSummary.concat(num + `x ` + object.name + ` ` + object.modifiers.reduce((result, modifier) => {
 			return `${result} ${modifier.description}`;
-		}, "") + test);
+		}, "") + ` ` + notes);
 	});
 	return (
 		<div>
