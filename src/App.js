@@ -168,6 +168,14 @@ class App extends Component {
 		this.setState({deliveryCharge: charge});
 	};
 
+	// Handles the item's name changing in ItemCustomisationModal
+	handleSelectedItemNameOnChange = (event) => {
+		let newName = event.target.value;
+		let updatedItem = this.state.currentItem;
+		updatedItem.name = newName;
+		this.setState({currentItem: updatedItem});
+	};
+
 	// Handles the item notes box changing in ItemCustomisationModal
 	handleItemNotesOnChange = (event) => {
 		let itemNotes = event.target.value;
@@ -176,6 +184,15 @@ class App extends Component {
 		// Get the current item and add a notes field to it
 		let updatedItem = this.state.currentItem;
 		updatedItem.notes = itemNotes;
+		this.setState({currentItem: updatedItem});
+	};
+
+	// Handles the item's price changing in ItemCustomisationModal
+	handleSelectedItemPriceOnChange = (event) => {
+		// NaN evaluates to false - thus returns 0
+		let newPrice = parseFloat(event.target.value) || 0;
+		let updatedItem = this.state.currentItem;
+		updatedItem.price = newPrice;
 		this.setState({currentItem: updatedItem});
 	};
 
@@ -222,10 +239,12 @@ class App extends Component {
 										modifiers={this.state.itemModifiers}
 										modalShow={this.state.showItemCustomisationModal}
 										handleModalClose={this.handleItemCustomisationModalClose}
+										handleSelectedItemNameOnChange={this.handleSelectedItemNameOnChange}
 										handleAddItemModifierButtonClick={this.handleAddItemModifierButtonClick}
 										handleRemoveItemModifierButtonClick={this.handleRemoveItemModifierButtonClick}
 										handleAddCustomisedItemClick={this.handleAddCustomisedItemClick}
 										handleItemNotesOnChange={this.handleItemNotesOnChange}
+										handleSelectedItemPriceOnChange={this.handleSelectedItemPriceOnChange}
 				/>
 				<OrderSummaryModal modalShow={this.state.showOrderSummaryModal}
 								   handleModalClose={this.handleOrderSummaryModalClose}
