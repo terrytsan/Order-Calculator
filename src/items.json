@@ -2,25 +2,25 @@
   "items": [
     {
       "id": "1",
-      "name": "Chicken and Sweet Corn Soup",
+      "name": "Chicken & Sweet Corn Soup",
       "price": 2.60,
       "modifiers": []
     },
     {
       "id": "2",
-      "name": "Chicken and Noodle Soup",
+      "name": "Chicken & Noodle Soup",
       "price": 2.60,
       "modifiers": []
     },
     {
       "id": "3",
-      "name": "Chicken and Mushroom Soup",
+      "name": "Chicken & Mushroom Soup",
       "price": 2.60,
       "modifiers": []
     },
     {
       "id": "4",
-      "name": "Crab Meat and Sweet Corn Soup",
+      "name": "Crab Meat & Sweet Corn Soup",
       "price": 2.80,
       "modifiers": []
     },
@@ -1274,7 +1274,7 @@
     },
     {
       "id": "73",
-      "name": "Fried Bamboo Shoots and Water Chestnuts",
+      "name": "Fried Bamboo Shoots & Water Chestnuts",
       "price": 2.80,
       "modifiers": []
     },

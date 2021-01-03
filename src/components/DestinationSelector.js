@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Button, Col, Container, FormControl, InputGroup, Row} from "react-bootstrap";
 
 function DestinationSelector({isCollection, onclickHandler, onAddressInputChange, onDeliveryChargeInputChange}) {
 
@@ -9,19 +9,22 @@ function DestinationSelector({isCollection, onclickHandler, onAddressInputChange
 		addressInput =
 
 			<Row style={{paddingTop: "3px", paddingBottom: "3px"}}>
-				<Col xs={8} style={{paddingLeft: "0", paddingRight: "0"}}>
-					<input onChange={onAddressInputChange} autoComplete="none" placeholder="Address"
-						   style={{width: "100%"}}/>
+				<Col xs={7} style={{paddingLeft: "0", paddingRight: "0"}}>
+					<FormControl onChange={onAddressInputChange} autoComplete="none" placeholder="Address"
+								 style={{width: "100%"}}/>
 				</Col>
 
-				<Col style={{paddingRight: "0", textAlign: "right"}}>
-					<Row>
-						<Col style={{padding: "0"}}>
-							<p>£</p>
-						</Col>
-						<Col xs={11} style={{paddingLeft: "3px"}}>
-							<input onChange={onDeliveryChargeInputChange} type="number" step="0.1" placeholder="Charge"
-								   style={{width: "100%"}}/>
+				<Col style={{paddingLeft: "0", paddingRight: "0"}}>
+					<Row style={{display: "flex", justifyContent: "flex-end"}}>
+						<Col xs={11}>
+							<InputGroup>
+								<InputGroup.Prepend>
+									<InputGroup.Text>£</InputGroup.Text>
+								</InputGroup.Prepend>
+								<FormControl onChange={onDeliveryChargeInputChange} type="number" step="0.1"
+											 placeholder="Charge"
+								/>
+							</InputGroup>
 						</Col>
 					</Row>
 				</Col>

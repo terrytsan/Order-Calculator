@@ -1,8 +1,9 @@
 import React from "react";
+import {FormControl} from "react-bootstrap";
 
 function SearchBar({onChange}) {
 	return (
-		<input type="text" placeholder="Search..." onChange={onChange} style={inputStyle}/>
+		<FormControl type="text" placeholder="Search..." onChange={onChange} style={inputStyle}/>
 	);
 }
 

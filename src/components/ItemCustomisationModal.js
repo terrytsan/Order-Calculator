@@ -1,4 +1,4 @@
-import {Button, Col, Modal, Row} from "react-bootstrap";
+import {Button, Col, FormControl, InputGroup, Modal, Row} from "react-bootstrap";
 import React from "react";
 import ModifierButton from "./ModifierButton";
 
@@ -17,8 +17,8 @@ function ItemCustomisationModal({
 			<Modal.Body>
 				<Row className="mb-3">
 					<Col>
-						<input type="text" value={selectedItem.name} onChange={handleSelectedItemNameOnChange}
-							   style={{width: "100%"}}/>
+						<FormControl type="text" value={selectedItem.name} onChange={handleSelectedItemNameOnChange}
+									 style={{width: "100%"}}/>
 					</Col>
 
 				</Row>
@@ -32,13 +32,17 @@ function ItemCustomisationModal({
 					</Col>
 				</Row>
 				<Row>
-					<Col>
-						<input onChange={handleItemNotesOnChange} type="text" placeholder="Notes"
-							   style={{marginTop: "5px", marginLeft: "3px"}}/>
+					<Col xs={8}>
+						<FormControl onChange={handleItemNotesOnChange} type="text" placeholder="Notes"/>
 					</Col>
-					<Col>
-						<input onChange={handleSelectedItemPriceOnChange} type="number"
-							   value={selectedItem.price} placeholder="Hello" step="0.1"/>
+					<Col style={{paddingLeft: "0"}}>
+						<InputGroup>
+							<InputGroup.Prepend>
+								<InputGroup.Text>£</InputGroup.Text>
+							</InputGroup.Prepend>
+							<FormControl onChange={handleSelectedItemPriceOnChange} type="number"
+										 value={selectedItem.price} placeholder="Hello" step="0.1"/>
+						</InputGroup>
 					</Col>
 				</Row>
 				<hr style={{width: '95%'}}/>

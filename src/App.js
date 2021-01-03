@@ -41,6 +41,8 @@ class App extends Component {
 
 	// Handles when the user clicks add on a specific item (on the main page)
 	handleAddItemClick = (event) => {
+		// Don't activate the item row's click event
+		event.stopPropagation();
 		let itemId = event.target.name;
 
 		// Find the actual item
@@ -118,6 +120,7 @@ class App extends Component {
 	handleSearchBarChange = (event) => {
 		let newList;
 		let searchText = event.target.value.toLowerCase();
+		searchText = searchText.replace("and", "&");
 
 		if (searchText !== "") {
 			newList = this.state.originalItems.filter(item => item.name.toLowerCase().includes(searchText));

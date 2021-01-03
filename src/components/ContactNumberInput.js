@@ -1,11 +1,13 @@
 import React from "react";
+import {FormControl} from "react-bootstrap";
 
 function ContactNumberInput({onChange}) {
 
 	// Otherwise gray button
 	return (
-		<div className="text-center">
-			<input style={inputStyle} type="text" autoComplete="none" placeholder="Contact Number" onChange={onChange}/>
+		<div className="text-center" style={{display: "flex", justifyContent: "center"}}>
+			<FormControl style={inputStyle} type="text" autoComplete="none" placeholder="Contact Number"
+						 onChange={onChange}/>
 		</div>
 	);
 }

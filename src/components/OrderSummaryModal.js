@@ -35,8 +35,7 @@ function createItemSummary(itemCountObj, handleRemoveItemOnClick) {
 						   style={{fontSize: "small", verticalAlign: "middle", marginBottom: "0"}}>{item}</p>
 					</Col>
 					<Col style={{
-						paddingLeft: "0", paddingRight: "5px", display: "flex", flexDirection: "column",
-						justifyContent: "center"
+						paddingLeft: "0", display: "flex", flexDirection: "column", justifyContent: "center"
 					}}>
 						<Button key={i} variant={"danger"} style={removeButtonStyle} onClick={() => {
 							// Pass the item that should be removed
