@@ -1,6 +1,6 @@
 import {Button, Col, Modal} from "react-bootstrap";
 import React, {Component} from "react";
-import {CopyIcon, XCircleIcon} from '@primer/octicons-react';
+import {ChevronDownIcon, ChevronUpIcon, CopyIcon} from '@primer/octicons-react';
 import * as PropTypes from "prop-types";
 
 class OrderSummaryModal extends Component {
@@ -19,7 +19,7 @@ class OrderSummaryModal extends Component {
 	}
 
 	// Given an object (with item and count), create the text summary of items
-	createItemSummary(itemCountObj, handleRemoveItemOnClick) {
+	createItemSummary(itemCountObj, handleRemoveItemOnClick, handleDuplicateItemOnClick) {
 		// Holds a list of summarised items (in human readable form)
 		let itemSummary = [];
 		let clipboardSummary = "";
@@ -39,17 +39,24 @@ class OrderSummaryModal extends Component {
 			<div>
 				{itemSummary.map((item, i) =>
 					<div key={i + "div"} className="row" style={{paddingTop: "3px", paddingBottom: "3px"}}>
-						<Col xs={10} style={{paddingRight: "0", display: "flex", alignItems: "center"}}>
+						<Col xs={9} style={{paddingRight: "0", display: "flex", alignItems: "center"}}>
 							<p key={i + "itemText"}
 							   style={{fontSize: "small", verticalAlign: "middle", marginBottom: "0"}}>{item}</p>
 						</Col>
 						<Col style={{
-							paddingLeft: "0", display: "flex", flexDirection: "column", justifyContent: "center"
+							paddingLeft: "0", display: "flex", flexDirection: "row", justifyContent: "space-between"
 						}}>
-							<Button key={i} variant={"danger"} style={removeButtonStyle} onClick={() => {
+							<Button key={"duplicate" + i} style={addButtonStyle} onClick={() => {
+								handleDuplicateItemOnClick(JSON.parse(Object.keys(itemCountObj)[i]));
+							}}>
+								<ChevronUpIcon size={16}/>
+							</Button>
+							<Button key={"remove" + i} style={removeButtonStyle} variant={"danger"} onClick={() => {
 								// Pass the item that should be removed
 								handleRemoveItemOnClick(JSON.parse(Object.keys(itemCountObj)[i]));
-							}}> <XCircleIcon size={16}/></Button>
+							}}>
+								<ChevronDownIcon size={16}/>
+							</Button>
 						</Col>
 					</div>
 				)}
@@ -75,7 +82,8 @@ class OrderSummaryModal extends Component {
 
 	render() {
 		let {
-			modalShow, handleModalClose, selectedItems, contactNumber, address, deliveryCharge, handleRemoveItemOnClick
+			modalShow, handleModalClose, selectedItems, contactNumber, address, deliveryCharge, handleRemoveItemOnClick,
+			handleDuplicateItemOnClick
 		} = this.props;
 		let countedItems = this.countUniqueItems(selectedItems);
 
@@ -99,7 +107,7 @@ class OrderSummaryModal extends Component {
 					<p style={{fontWeight: "bold"}}>{contactNumber}</p>
 					<p style={{fontWeight: "bold"}}>{address}</p>
 
-					{this.createItemSummary(countedItems, handleRemoveItemOnClick)}
+					{this.createItemSummary(countedItems, handleRemoveItemOnClick, handleDuplicateItemOnClick)}
 					<hr style={{width: '95%'}}/>
 					{deliveryChargeOutput}
 					<p style={{fontWeight: "bold", fontSize: "large", marginTop: "0", marginBottom: "0"}}>Total Cost
@@ -124,8 +132,10 @@ const removeButtonStyle = {
 	fontSize: 'small',
 	paddingLeft: '5px',
 	paddingRight: '5px',
-	alignItems: 'center',
-	alignSelf: 'flex-end',
-	verticalAlign: 'middle'
+};
+const addButtonStyle = {
+	fontSize: 'small',
+	paddingLeft: '5px',
+	paddingRight: '5px',
 };
 export default OrderSummaryModal;

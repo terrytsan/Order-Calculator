@@ -199,10 +199,21 @@ class App extends Component {
 		this.setState({currentItem: updatedItem});
 	};
 
+	// Handles duplicate button click in order summary modal
+	handleDuplicateItemOnClick = (item) => {
+		let updatedSelectedItems = this.state.selectedItems;
+		// Duplicate the desired item
+		updatedSelectedItems = updatedSelectedItems.concat(item);
+		this.setState({selectedItems: updatedSelectedItems});
+	};
+
 	// Handles remove button click in order summary modal
 	handleRemoveItemOnClick = (item) => {
-		// Find the index of the item to be removed
-		let indexToRemove = this.state.selectedItems.findIndex(i => JSON.stringify(i) === JSON.stringify(item));
+		// Find index of the last occurrence of the item to be removed. Stops items from reordering when removing
+		let indexToRemove = this.state.selectedItems.slice().reverse().findIndex(i => JSON.stringify(i) === JSON.stringify(item));
+
+		// Reverse the found index
+		indexToRemove = this.state.selectedItems.length - 1 - indexToRemove;
 
 		// Remove the item from the list
 		this.setState({selectedItems: this.state.selectedItems.filter((_, i) => i !== indexToRemove)});
@@ -256,6 +267,7 @@ class App extends Component {
 								   address={this.state.address}
 								   deliveryCharge={this.state.deliveryCharge}
 								   handleRemoveItemOnClick={this.handleRemoveItemOnClick}
+								   handleDuplicateItemOnClick={this.handleDuplicateItemOnClick}
 				/>
 			</div>
 		);
