@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Order-Calculator/static/css/main.392bfe46.chunk.css",
-    "main.js": "/Order-Calculator/static/js/main.58363b36.chunk.js",
-    "main.js.map": "/Order-Calculator/static/js/main.58363b36.chunk.js.map",
+    "main.js": "/Order-Calculator/static/js/main.f1ef1faa.chunk.js",
+    "main.js.map": "/Order-Calculator/static/js/main.f1ef1faa.chunk.js.map",
     "runtime-main.js": "/Order-Calculator/static/js/runtime-main.475ef722.js",
     "runtime-main.js.map": "/Order-Calculator/static/js/runtime-main.475ef722.js.map",
     "static/css/2.1a02f21c.chunk.css": "/Order-Calculator/static/css/2.1a02f21c.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.1e8156e2.chunk.js",
     "static/css/main.392bfe46.chunk.css",
-    "static/js/main.58363b36.chunk.js"
+    "static/js/main.f1ef1faa.chunk.js"
   ]
 }
