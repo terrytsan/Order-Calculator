@@ -3,1345 +3,1351 @@
     {
       "id": "1",
       "name": "Chicken & Sweet Corn Soup",
-      "price": 2.60,
+      "price": 3.10,
       "modifiers": []
     },
     {
       "id": "2",
       "name": "Chicken & Noodle Soup",
-      "price": 2.60,
+      "price": 3.10,
       "modifiers": []
     },
     {
       "id": "3",
       "name": "Chicken & Mushroom Soup",
-      "price": 2.60,
+      "price": 3.10,
       "modifiers": []
     },
     {
       "id": "4",
       "name": "Crab Meat & Sweet Corn Soup",
-      "price": 2.80,
+      "price": 3.30,
       "modifiers": []
     },
     {
       "id": "5",
       "name": "Sesame King Prawn on Toast",
-      "price": 3.50,
+      "price": 4.00,
       "modifiers": []
     },
     {
       "id": "6a",
       "name": "Salt & Pepper Spare Ribs ",
-      "price": 5.70,
+      "price": 6.20,
       "modifiers": []
     },
     {
       "id": "6b",
       "name": "Dry with Lemon Spare Ribs ",
-      "price": 5.70,
+      "price": 6.20,
       "modifiers": []
     },
     {
       "id": "6c",
       "name": "Sweet & Sour Spare Ribs ",
-      "price": 5.70,
+      "price": 6.20,
       "modifiers": []
     },
     {
       "id": "6d",
       "name": "Golden Syrup Spare Ribs ",
-      "price": 5.70,
+      "price": 6.20,
       "modifiers": []
     },
     {
       "id": "6e",
       "name": "BBQ Spare Ribs",
-      "price": 5.70,
+      "price": 6.20,
       "modifiers": []
     },
     {
       "id": "7a",
       "name": "Salt & Pepper Chicken Wings",
-      "price": 4.30,
+      "price": 4.80,
       "modifiers": []
     },
     {
       "id": "7b",
       "name": "Dry with Lemon Chicken Wings",
-      "price": 4.30,
+      "price": 4.80,
       "modifiers": []
     },
     {
       "id": "7c",
       "name": "Sweet & Sour Chicken Wings",
-      "price": 4.30,
+      "price": 4.80,
       "modifiers": []
     },
     {
       "id": "7d",
       "name": "Golden Syrup Chicken Wings",
-      "price": 4.30,
+      "price": 4.80,
       "modifiers": []
     },
     {
       "id": "7e",
       "name": "BBQ Chicken Wings",
-      "price": 4.30,
+      "price": 4.80,
       "modifiers": []
     },
     {
       "id": "8a",
       "name": "Pork Yuk Sung",
-      "price": 5.50,
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "8b",
       "name": "Chicken Yuk Sung",
-      "price": 5.50,
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "8c",
       "name": "Vegetable Yuk Sung",
-      "price": 5.00,
+      "price": 5.50,
       "modifiers": []
     },
     {
       "id": "9",
       "name": "Prawn Cocktail",
-      "price": 3.30,
+      "price": 3.80,
       "modifiers": []
     },
     {
       "id": "10a",
       "name": "¼ Aromatic Crispy Duck",
-      "price": 8.30,
+      "price": 8.80,
       "modifiers": []
     },
     {
       "id": "10b",
       "name": "½ Aromatic Crispy Duck",
-      "price": 14.60,
+      "price": 15.50,
       "modifiers": []
     },
     {
       "id": "11",
       "name": "Crispy King Prawn Rolls",
-      "price": 4.50,
+      "price": 5.00,
       "modifiers": []
     },
     {
       "id": "12",
       "name": "Pancake Roll",
-      "price": 2.80,
+      "price": 3.30,
       "modifiers": []
     },
     {
       "id": "13",
       "name": "Cantonese Crispy Pancake Rolls",
-      "price": 3.40,
+      "price": 3.90,
       "modifiers": []
     },
     {
       "id": "14",
       "name": "Mini Vegetarian Spring Rolls",
-      "price": 2.80,
+      "price": 3.30,
       "modifiers": []
     },
     {
       "id": "15",
       "name": "Satay Chicken Skewers",
-      "price": 4.60,
+      "price": 5.10,
       "modifiers": []
     },
     {
       "id": "16",
       "name": "Satay King Prawn Skewers",
-      "price": 5.00,
+      "price": 5.50,
       "modifiers": []
     },
     {
       "id": "17",
       "name": "Dim Sum Combo",
-      "price": 4.60,
+      "price": 5.10,
       "modifiers": []
     },
     {
       "id": "18",
       "name": "Cantonese Deluxe Dim Sum Combo",
-      "price": 5.80,
+      "price": 6.30,
       "modifiers": []
     },
     {
       "id": "19",
       "name": "Crispy Won Tons",
-      "price": 4.00,
+      "price": 4.50,
       "modifiers": []
     },
     {
       "id": "20",
       "name": "Thai Fish Cake",
-      "price": 2.60,
+      "price": 3.10,
       "modifiers": []
     },
     {
       "id": "21",
       "name": "Vegetarian Samosa",
-      "price": 2.60,
+      "price": 3.10,
       "modifiers": []
     },
     {
       "id": "22",
       "name": "Roast Duck Chinese Style",
-      "price": 5.90,
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "23",
       "name": "Roast Duck with Plum Sauce",
-      "price": 6.00,
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "24",
       "name": "Roast Duck with Lemon Sauce",
-      "price": 6.00,
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "25",
       "name": "Par Po Duck",
-      "price": 6.00,
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "26",
       "name": "King Red",
-      "price": 5.90,
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "27",
       "name": "Roast Chicken with Plum Sauce",
-      "price": 5.90,
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "28",
       "name": "Sesame Chicken",
-      "price": 5.90,
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "29",
       "name": "Chicken with Lemon Sauce",
-      "price": 5.50,
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "30",
       "name": "Phoenix Chicken",
-      "price": 5.80,
+      "price": 6.30,
       "modifiers": []
     },
     {
       "id": "31",
       "name": "Roast Chicken (Chinese Style)",
-      "price": 5.50,
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "32",
       "name": "Wong La Ton Chicken",
-      "price": 5.40,
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "33",
-      "name": "Chicken with Asparagus",
-      "price": 5.60,
+      "name": "Stir Fried Fillet of Chicken & Three Green Vegetables",
+      "price": 6.10,
       "modifiers": []
     },
     {
-      "id": "34",
-      "name": "Stir Fried Fillet of Chicken & Three Green Vegetables",
-      "price": 5.60,
+      "id": "34a",
+      "name": "Shanghai Roast Duck",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "34b",
+      "name": "Shanghai Roast King Prawn",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "35a",
-      "name": "Shanghai Roast Duck",
-      "price": 5.90,
+      "name": "Shanghai Roast Chicken",
+      "price": 6.10,
       "modifiers": []
     },
     {
       "id": "35b",
-      "name": "Shanghai Roast King Prawn",
-      "price": 5.90,
+      "name": "Shanghai Roast Beef",
+      "price": 6.10,
+      "modifiers": []
+    },
+    {
+      "id": "35c",
+      "name": "Shanghai Roast Pork",
+      "price": 6.10,
       "modifiers": []
     },
     {
       "id": "36a",
-      "name": "Shanghai Roast Chicken",
-      "price": 5.60,
+      "name": "Crispy Shredded Beef",
+      "price": 6.10,
       "modifiers": []
     },
     {
       "id": "36b",
-      "name": "Shanghai Roast Beef",
-      "price": 5.60,
-      "modifiers": []
-    },
-    {
-      "id": "36c",
-      "name": "Shanghai Roast Pork",
-      "price": 5.60,
-      "modifiers": []
-    },
-    {
-      "id": "37a",
-      "name": "Crispy Shredded Beef",
-      "price": 5.60,
-      "modifiers": []
-    },
-    {
-      "id": "37b",
       "name": "Crispy Shredded Chicken",
-      "price": 5.60,
+      "price": 6.10,
       "modifiers": []
     },
     {
-      "id": "38",
+      "id": "37",
       "name": "Crispy Chicken with Pineapple Cantonese Sauce",
-      "price": 5.60,
+      "price": 6.10,
+      "modifiers": []
+    },
+    {
+      "id": "38a",
+      "name": "Salt & Pepper Chicken",
+      "price": 6.20,
+      "modifiers": []
+    },
+    {
+      "id": "38b",
+      "name": "Salt & Pepper King Prawn",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "38c",
+      "name": "Salt & Pepper Beef",
+      "price": 6.20,
       "modifiers": []
     },
     {
       "id": "39a",
-      "name": "Salt & Pepper Chicken",
-      "price": 5.70,
+      "name": "Beef Satay Cantonese",
+      "price": 6.10,
       "modifiers": []
     },
     {
       "id": "39b",
-      "name": "Salt & Pepper King Prawn",
+      "name": "Chicken Satay Cantonese",
       "price": 6.10,
       "modifiers": []
     },
     {
       "id": "39c",
-      "name": "Salt & Pepper Beef",
-      "price": 5.70,
+      "name": "Pork Satay Cantonese",
+      "price": 6.10,
+      "modifiers": []
+    },
+    {
+      "id": "39d",
+      "name": "Duck Satay Cantonese",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "39e",
+      "name": "King Prawn Satay Cantonese",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "39f",
+      "name": "Mixed Meat Satay Cantonese",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "40a",
-      "name": "Beef Satay Cantonese",
-      "price": 5.40,
+      "name": "Beef Black Bean Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "40b",
-      "name": "Chicken Satay Cantonese",
-      "price": 5.40,
+      "name": "Chicken Black Bean Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "40c",
-      "name": "Pork Satay Cantonese",
-      "price": 5.40,
+      "name": "Pork Black Bean Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "40d",
-      "name": "Duck Satay Cantonese",
-      "price": 6.10,
+      "name": "Duck Black Bean Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "40e",
-      "name": "King Prawn Satay Cantonese",
-      "price": 6.00,
+      "name": "King Prawn Black Bean Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "40f",
-      "name": "Mixed Meat Satay Cantonese",
-      "price": 6.00,
+      "name": "Mixed Meat Black Bean Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "41a",
-      "name": "Beef Black Bean Sauce",
-      "price": 5.40,
+      "name": "Beef Black Pepper Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "41b",
-      "name": "Chicken Black Bean Sauce",
-      "price": 5.40,
+      "name": "Chicken Black Pepper Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "41c",
-      "name": "Pork Black Bean Sauce",
-      "price": 5.40,
+      "name": "Pork Black Pepper Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "41d",
-      "name": "Duck Black Bean Sauce",
-      "price": 6.10,
+      "name": "Duck Black Pepper Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "41e",
-      "name": "King Prawn Black Bean Sauce",
-      "price": 6.00,
+      "name": "King Prawn Black Pepper Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "41f",
-      "name": "Mixed Meat Black Bean Sauce",
-      "price": 6.00,
+      "name": "Mixed Meat Black Pepper Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "42a",
-      "name": "Beef Black Pepper Sauce",
-      "price": 5.40,
+      "name": "Beef Cashew Nuts in Yellow Bean Sauce",
+      "price": 6.30,
       "modifiers": []
     },
     {
       "id": "42b",
-      "name": "Chicken Black Pepper Sauce",
-      "price": 5.40,
+      "name": "Chicken Cashew Nuts in Yellow Bean Sauce",
+      "price": 6.30,
       "modifiers": []
     },
     {
       "id": "42c",
-      "name": "Pork Black Pepper Sauce",
-      "price": 5.40,
-      "modifiers": []
-    },
-    {
-      "id": "42d",
-      "name": "Duck Black Pepper Sauce",
-      "price": 6.10,
-      "modifiers": []
-    },
-    {
-      "id": "42e",
-      "name": "King Prawn Black Pepper Sauce",
-      "price": 6.00,
-      "modifiers": []
-    },
-    {
-      "id": "42f",
-      "name": "Mixed Meat Black Pepper Sauce",
-      "price": 6.00,
+      "name": "King Prawn Cashew Nuts in Yellow Bean Sauce",
+      "price": 6.70,
       "modifiers": []
     },
     {
       "id": "43a",
-      "name": "Beef Cashew Nuts in Yellow Bean Sauce",
-      "price": 5.80,
+      "name": "Beef Cantonese Fruity Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "43b",
-      "name": "Chicken Cashew Nuts in Yellow Bean Sauce",
-      "price": 5.80,
+      "name": "Chicken Cantonese Fruity Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "43c",
-      "name": "King Prawn Cashew Nuts in Yellow Bean Sauce",
-      "price": 6.00,
+      "name": "Pork Cantonese Fruity Sauce",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "43d",
+      "name": "Duck Cantonese Fruity Sauce",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "43e",
+      "name": "King Prawn Cantonese Fruity Sauce",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "43f",
+      "name": "Mixed Meat Cantonese Fruity Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "44a",
-      "name": "Beef Cantonese Fruity Sauce",
-      "price": 5.40,
+      "name": "Beef Kung Po Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "44b",
-      "name": "Chicken Cantonese Fruity Sauce",
-      "price": 5.40,
+      "name": "Chicken Kung Po Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "44c",
-      "name": "Pork Cantonese Fruity Sauce",
-      "price": 5.40,
+      "name": "Pork Kung Po Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "44d",
-      "name": "Duck Cantonese Fruity Sauce",
-      "price": 6.10,
+      "name": "Duck Kung Po Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "44e",
-      "name": "King Prawn Cantonese Fruity Sauce",
-      "price": 6.00,
+      "name": "King Prawn Kung Po Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "44f",
-      "name": "Mixed Meat Cantonese Fruity Sauce",
-      "price": 6.00,
+      "name": "Mixed Meat Kung Po Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "45a",
-      "name": "Beef Kung Po Sauce",
-      "price": 5.40,
+      "name": "Beef Szechuan Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "45b",
-      "name": "Chicken Kung Po Sauce",
-      "price": 5.40,
+      "name": "Chicken Szechuan Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "45c",
-      "name": "Pork Kung Po Sauce",
-      "price": 5.40,
+      "name": "Pork Szechuan Sauce",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "45d",
-      "name": "Duck Kung Po Sauce",
-      "price": 6.10,
+      "name": "Duck Szechuan Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "45e",
-      "name": "King Prawn Kung Po Sauce",
-      "price": 6.00,
+      "name": "King Prawn Szechuan Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "45f",
-      "name": "Mixed Meat Kung Po Sauce",
-      "price": 6.00,
+      "name": "Mixed Meat Szechuan Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "46a",
-      "name": "Beef Szechuan Sauce",
-      "price": 5.40,
+      "name": "Beef Ginger & Spring Onion",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "46b",
-      "name": "Chicken Szechuan Sauce",
-      "price": 5.40,
+      "name": "Chicken Ginger & Spring Onion",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "46c",
-      "name": "Pork Szechuan Sauce",
-      "price": 5.40,
+      "name": "Pork Ginger & Spring Onion",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "46d",
-      "name": "Duck Szechuan Sauce",
-      "price": 6.10,
+      "name": "Duck Ginger & Spring Onion",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "46e",
-      "name": "King Prawn Szechuan Sauce",
-      "price": 6.00,
+      "name": "King Prawn Ginger & Spring Onion",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "46f",
-      "name": "Mixed Meat Szechuan Sauce",
-      "price": 6.00,
+      "name": "Mixed Meat Ginger & Spring Onion",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "47a",
-      "name": "Beef Ginger & Spring Onion",
-      "price": 5.40,
+      "name": "Chicken Sweet & Sour Cantonese",
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "47b",
-      "name": "Chicken Ginger & Spring Onion",
-      "price": 5.40,
+      "name": "Pork Sweet & Sour Cantonese",
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "47c",
-      "name": "Pork Ginger & Spring Onion",
-      "price": 5.40,
+      "name": "King Prawn Sweet & Sour Cantonese",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "47d",
-      "name": "Duck Ginger & Spring Onion",
-      "price": 6.10,
+      "name": "Mixed Meat Sweet & Sour Cantonese",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "48a",
-      "name": "Chicken Sweet & Sour Cantonese",
-      "price": 5.50,
+      "name": "Sweet & Sour Chicken Balls",
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "48b",
-      "name": "Pork Sweet & Sour Cantonese",
-      "price": 5.50,
-      "modifiers": []
-    },
-    {
-      "id": "48c",
-      "name": "King Prawn Sweet & Sour Cantonese",
-      "price": 5.90,
-      "modifiers": []
-    },
-    {
-      "id": "48d",
-      "name": "Mixed Meat Sweet & Sour Cantonese",
-      "price": 5.90,
+      "name": "Sweet & Sour King Prawn Balls",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "49a",
-      "name": "Sweet & Sour Chicken Balls",
-      "price": 5.50,
+      "name": "Beef Fried Rice",
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "49b",
-      "name": "Sweet & Sour King Prawn Balls",
-      "price": 5.90,
+      "name": "Chicken Fried Rice",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "49c",
+      "name": "Pork Fried Rice",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "49d",
+      "name": "Shrimp Fried Rice",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "49e",
+      "name": "King Prawn Fried Rice",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "49f",
+      "name": "House Special Fried Rice",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "49g",
+      "name": "Yung Chow Fried Rice",
+      "price": 6.10,
+      "modifiers": []
+    },
+    {
+      "id": "49h",
+      "name": "Singapore Fried Rice",
+      "price": 6.10,
+      "modifiers": []
+    },
+    {
+      "id": "49i",
+      "name": "Pork & Chicken Fried Rice",
+      "price": 6.10,
       "modifiers": []
     },
     {
       "id": "50a",
-      "name": "Beef Fried Rice",
-      "price": 5.50,
+      "name": "Beef Chow Mein",
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "50b",
-      "name": "Chicken Fried Rice",
-      "price": 5.50,
+      "name": "Chicken Chow Mein",
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "50c",
-      "name": "Pork Fried Rice",
-      "price": 5.50,
+      "name": "Pork Chow Mein",
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "50d",
-      "name": "Shrimp Fried Rice",
-      "price": 5.50,
+      "name": "Shrimp Chow Mein",
+      "price": 6.00,
       "modifiers": []
     },
     {
       "id": "50e",
-      "name": "King Prawn Fried Rice",
-      "price": 5.90,
+      "name": "King Prawn Chow Mein",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "50f",
-      "name": "House Special Fried Rice",
-      "price": 5.90,
+      "name": "House Special Chow Mein",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "50g",
-      "name": "Yung Chow Fried Rice",
-      "price": 5.60,
+      "name": "Yung Chow Chow Mein",
+      "price": 6.10,
       "modifiers": []
     },
     {
       "id": "50h",
-      "name": "Singapore Fried Rice",
-      "price": 5.60,
+      "name": "Singapore Chow Mein",
+      "price": 6.10,
       "modifiers": []
     },
     {
       "id": "50i",
-      "name": "Pork & Chicken Fried Rice",
-      "price": 5.90,
+      "name": "Pork & Chicken Chow Mein",
+      "price": 6.10,
       "modifiers": []
     },
     {
       "id": "51a",
-      "name": "Beef Chow Mein",
-      "price": 5.50,
+      "name": "Beef Chop Suey",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "51b",
-      "name": "Chicken Chow Mein",
-      "price": 5.50,
+      "name": "Chicken Chop Suey",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "51c",
-      "name": "Pork Chow Mein",
-      "price": 5.50,
+      "name": "Pork Chop Suey",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "51d",
-      "name": "Shrimp Chow Mein",
-      "price": 5.50,
+      "name": "Shrimp Chop Suey",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "51e",
-      "name": "King Prawn Chow Mein",
-      "price": 5.90,
+      "name": "King Prawn Chop Suey",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "51f",
-      "name": "House Special Chow Mein",
-      "price": 5.90,
-      "modifiers": []
-    },
-    {
-      "id": "51g",
-      "name": "Yung Chow Chow Mein",
-      "price": 5.60,
-      "modifiers": []
-    },
-    {
-      "id": "51h",
-      "name": "Singapore Chow Mein",
-      "price": 5.60,
+      "name": "Mixed Meat Chop Suey",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "52a",
-      "name": "Beef Chop Suey",
-      "price": 5.40,
-      "modifiers": []
-    },
-    {
-      "id": "52b",
-      "name": "Chicken Chop Suey",
-      "price": 5.40,
-      "modifiers": []
-    },
-    {
-      "id": "52c",
-      "name": "Pork Chop Suey",
-      "price": 5.40,
-      "modifiers": []
-    },
-    {
-      "id": "52d",
-      "name": "Shrimp Chop Suey",
-      "price": 5.40,
-      "modifiers": []
-    },
-    {
-      "id": "52e",
-      "name": "King Prawn Chop Suey",
+      "name": "Beef Curry",
       "price": 5.90,
       "modifiers": []
     },
     {
+      "id": "52b",
+      "name": "Chicken Curry",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "52c",
+      "name": "Pork Curry",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "52d",
+      "name": "Shrimp Curry",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "52e",
+      "name": "King Prawn Curry",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
       "id": "52f",
-      "name": "Mixed Meat Chop Suey",
+      "name": "Mixed Vegetable Curry",
+      "price": 5.00,
+      "modifiers": []
+    },
+    {
+      "id": "52g",
+      "name": "Mushroom Curry",
+      "price": 5.00,
+      "modifiers": []
+    },
+    {
+      "id": "52h",
+      "name": "Duck Curry",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "52i",
+      "name": "Sam Pan Curry Delight",
+      "price": 6.60,
+      "modifiers": []
+    },
+    {
+      "id": "52j",
+      "name": "Macao Chicken Curry",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "52kS",
+      "name": "Small Curry Sauce",
+      "price": 2.00,
+      "modifiers": []
+    },
+    {
+      "id": "52kL",
+      "name": "Large Curry Sauce",
+      "price": 3.00,
+      "modifiers": []
+    },
+    {
+      "id": "52l",
+      "name": "Special Curry",
       "price": 5.90,
       "modifiers": []
     },
     {
       "id": "53a",
-      "name": "Beef Curry",
-      "price": 4.40,
+      "name": "Special Foo Yung",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "53b",
-      "name": "Chicken Curry",
-      "price": 4.40,
+      "name": "Chicken Foo Yung",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "53c",
-      "name": "Pork Curry",
-      "price": 4.40,
+      "name": "Pork Foo Yung",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "53d",
-      "name": "Shrimp Curry",
-      "price": 4.40,
+      "name": "Shrimp Foo Yung",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "53e",
-      "name": "King Prawn Curry",
-      "price": 5.30,
+      "name": "King Prawn Foo Yung",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "53f",
-      "name": "Mixed Vegetable Curry",
-      "price": 4.00,
+      "name": "Mushroom Foo Yung",
+      "price": 5.50,
       "modifiers": []
     },
     {
       "id": "53g",
-      "name": "Mushroom Curry",
-      "price": 4.00,
-      "modifiers": []
-    },
-    {
-      "id": "53h",
-      "name": "Duck Curry",
-      "price": 5.90,
-      "modifiers": []
-    },
-    {
-      "id": "53i",
-      "name": "Sam Pan Curry Delight",
-      "price": 5.90,
-      "modifiers": []
-    },
-    {
-      "id": "53j",
-      "name": "Macao Chicken Curry",
-      "price": 5.50,
-      "modifiers": []
-    },
-    {
-      "id": "53kS",
-      "name": "Small Curry Sauce",
-      "price": 1.80,
-      "modifiers": []
-    },
-    {
-      "id": "53kL",
-      "name": "Large Curry Sauce",
-      "price": 2.00,
-      "modifiers": []
-    },
-    {
-      "id": "53l",
-      "name": "Special Curry",
-      "price": 4.70,
-      "modifiers": []
-    },
-    {
-      "id": "54a",
-      "name": "Special Foo Yung",
-      "price": 5.50,
-      "modifiers": []
-    },
-    {
-      "id": "54b",
-      "name": "Chicken Foo Yung",
-      "price": 5.40,
-      "modifiers": []
-    },
-    {
-      "id": "54c",
-      "name": "Pork Foo Yung",
-      "price": 5.40,
-      "modifiers": []
-    },
-    {
-      "id": "54d",
-      "name": "Shrimp Foo Yung",
-      "price": 5.40,
-      "modifiers": []
-    },
-    {
-      "id": "54e",
-      "name": "King Prawn Foo Yung",
-      "price": 5.90,
-      "modifiers": []
-    },
-    {
-      "id": "54f",
-      "name": "Mushroom Foo Yung",
-      "price": 5.00,
-      "modifiers": []
-    },
-    {
-      "id": "54g",
       "name": "Plain Egg Foo Yung",
-      "price": 4.80,
+      "price": 5.10,
+      "modifiers": []
+    },
+    {
+      "id": "54aa",
+      "name": "Fried Beef with Bamboo Shoots & Water Chestnuts",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "54ab",
+      "name": "Fried Beef with Oyster Sauce",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54ac",
+      "name": "Fried Beef with Pineapple",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54ad",
+      "name": "Fried Beef with Mushrooms",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "54ae",
+      "name": "Fried Beef with Sweet Corn",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "54af",
+      "name": "Fried Beef with Beansprouts",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54ag",
+      "name": "Fried Beef with Tomatoes",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54ah",
+      "name": "Fried Beef with Cashew Nuts",
+      "price": 6.20,
+      "modifiers": []
+    },
+    {
+      "id": "54ba",
+      "name": "Fried Chicken with Bamboo Shoots & Water Chestnuts",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "54bb",
+      "name": "Fried Chicken with Oyster Sauce",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54bc",
+      "name": "Fried Chicken with Pineapple",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54bd",
+      "name": "Fried Chicken with Mushrooms",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "54be",
+      "name": "Fried Chicken with Sweet Corn",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "54bf",
+      "name": "Fried Chicken with Beansprouts",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54bg",
+      "name": "Fried Chicken with Tomatoes",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54bh",
+      "name": "Fried Chicken with Cashew Nuts",
+      "price": 6.20,
+      "modifiers": []
+    },
+    {
+      "id": "54ca",
+      "name": "Fried Pork with Bamboo Shoots & Water Chestnuts",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "54cb",
+      "name": "Fried Pork with Oyster Sauce",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54cc",
+      "name": "Fried Pork with Pineapple",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54cd",
+      "name": "Fried Pork with Mushrooms",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "54ce",
+      "name": "Fried Pork with Sweet Corn",
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "54cf",
+      "name": "Fried Pork with Beansprouts",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54cg",
+      "name": "Fried Pork with Tomatoes",
+      "price": 6.00,
+      "modifiers": []
+    },
+    {
+      "id": "54ch",
+      "name": "Fried Pork with Cashew Nuts",
+      "price": 6.20,
       "modifiers": []
     },
     {
       "id": "55aa",
-      "name": "Fried Beef with Bamboo Shoots & Water Chestnuts",
-      "price": 5.40,
+      "name": "Fried King Prawn with Bamboo Shoots & Water Chestnuts",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55ab",
-      "name": "Fried Beef with Oyster Sauce",
-      "price": 5.50,
+      "name": "Fried King Prawn with Oyster Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55ac",
-      "name": "Fried Beef with Pineapple",
-      "price": 5.50,
+      "name": "Fried King Prawn with Pineapple",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55ad",
-      "name": "Fried Beef with Mushrooms",
-      "price": 5.50,
+      "name": "Fried King Prawn with Mushrooms",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55ae",
-      "name": "Fried Beef with Sweet Corn",
-      "price": 5.50,
+      "name": "Fried King Prawn with Sweet Corn",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55af",
-      "name": "Fried Beef with Beansprouts",
-      "price": 5.50,
+      "name": "Fried King Prawn with Beansprouts",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55ag",
-      "name": "Fried Beef with Tomatoes",
-      "price": 5.50,
+      "name": "Fried King Prawn with Tomatoes",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55ah",
-      "name": "Fried Beef with Cashew Nuts",
-      "price": 5.70,
+      "name": "Fried King Prawn with Cashew Nuts",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55ba",
-      "name": "Fried Chicken with Bamboo Shoots & Water Chestnuts",
-      "price": 5.40,
+      "name": "Fried Duck with Bamboo Shoots & Water Chestnuts",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55bb",
-      "name": "Fried Chicken with Oyster Sauce",
-      "price": 5.50,
+      "name": "Fried Duck with Oyster Sauce",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55bc",
-      "name": "Fried Chicken with Pineapple",
-      "price": 5.50,
+      "name": "Fried Duck with Pineapple",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55bd",
-      "name": "Fried Chicken with Mushrooms",
-      "price": 5.50,
+      "name": "Fried Duck with Mushrooms",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55be",
-      "name": "Fried Chicken with Sweet Corn",
-      "price": 5.50,
+      "name": "Fried Duck with Sweet Corn",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55bf",
-      "name": "Fried Chicken with Beansprouts",
-      "price": 5.50,
+      "name": "Fried Duck with Beansprouts",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55bg",
-      "name": "Fried Chicken with Tomatoes",
-      "price": 5.50,
+      "name": "Fried Duck with Tomatoes",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "55bh",
-      "name": "Fried Chicken with Cashew Nuts",
-      "price": 5.70,
-      "modifiers": []
-    },
-    {
-      "id": "55ca",
-      "name": "Fried Pork with Bamboo Shoots & Water Chestnuts",
-      "price": 5.40,
-      "modifiers": []
-    },
-    {
-      "id": "55cb",
-      "name": "Fried Pork with Oyster Sauce",
-      "price": 5.50,
-      "modifiers": []
-    },
-    {
-      "id": "55cc",
-      "name": "Fried Pork with Pineapple",
-      "price": 5.50,
-      "modifiers": []
-    },
-    {
-      "id": "55cd",
-      "name": "Fried Pork with Mushrooms",
-      "price": 5.50,
-      "modifiers": []
-    },
-    {
-      "id": "55ce",
-      "name": "Fried Pork with Sweet Corn",
-      "price": 5.50,
-      "modifiers": []
-    },
-    {
-      "id": "55cf",
-      "name": "Fried Pork with Beansprouts",
-      "price": 5.50,
-      "modifiers": []
-    },
-    {
-      "id": "55cg",
-      "name": "Fried Pork with Tomatoes",
-      "price": 5.50,
-      "modifiers": []
-    },
-    {
-      "id": "55ch",
-      "name": "Fried Pork with Cashew Nuts",
-      "price": 5.70,
+      "name": "Fried Duck with Cashew Nuts",
+      "price": 6.60,
       "modifiers": []
     },
     {
       "id": "56aa",
-      "name": "Fried King Prawn with Bamboo Shoots & Water Chestnuts",
-      "price": 5.80,
+      "name": "Vegetarian Fried Rice",
+      "price": 5.50,
       "modifiers": []
     },
     {
       "id": "56ab",
-      "name": "Fried King Prawn with Oyster Sauce",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56ac",
-      "name": "Fried King Prawn with Pineapple",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56ad",
-      "name": "Fried King Prawn with Mushrooms",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56ae",
-      "name": "Fried King Prawn with Sweet Corn",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56af",
-      "name": "Fried King Prawn with Beansprouts",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56ag",
-      "name": "Fried King Prawn with Tomatoes",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56ah",
-      "name": "Fried King Prawn with Cashew Nuts",
-      "price": 5.80,
+      "name": "Vegetarian Chow Mein",
+      "price": 5.50,
       "modifiers": []
     },
     {
       "id": "56ba",
-      "name": "Fried Duck with Bamboo Shoots & Water Chestnuts",
-      "price": 5.80,
+      "name": "Mixed Vegetables with Satay Sauce",
+      "price": 5.50,
       "modifiers": []
     },
     {
       "id": "56bb",
-      "name": "Fried Duck with Oyster Sauce",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56bc",
-      "name": "Fried Duck with Pineapple",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56bd",
-      "name": "Fried Duck with Mushrooms",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56be",
-      "name": "Fried Duck with Sweet Corn",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56bf",
-      "name": "Fried Duck with Beansprouts",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56bg",
-      "name": "Fried Duck with Tomatoes",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "56bh",
-      "name": "Fried Duck with Cashew Nuts",
-      "price": 5.80,
-      "modifiers": []
-    },
-    {
-      "id": "57aa",
-      "name": "Vegetarian Fried Rice",
-      "price": 4.90,
-      "modifiers": []
-    },
-    {
-      "id": "57ab",
-      "name": "Vegetarian Chow Mein",
-      "price": 4.90,
-      "modifiers": []
-    },
-    {
-      "id": "57ba",
-      "name": "Mixed Vegetables with Satay Sauce",
-      "price": 4.90,
-      "modifiers": []
-    },
-    {
-      "id": "57bb",
       "name": "Mushrooms with Satay Sauce",
-      "price": 4.90,
+      "price": 5.50,
       "modifiers": []
     },
     {
-      "id": "57ca",
+      "id": "56ca",
       "name": "Vegetable Chop Suey",
-      "price": 4.90,
+      "price": 5.50,
       "modifiers": []
     },
     {
-      "id": "57cb",
+      "id": "56cb",
       "name": "Mushroom Chop Suey",
-      "price": 4.90,
+      "price": 5.50,
       "modifiers": []
     },
     {
-      "id": "58a",
+      "id": "57a",
       "name": "Special Thai Chilli Sauce",
-      "price": 5.30,
+      "price": 6.60,
       "modifiers": []
     },
     {
-      "id": "58b",
+      "id": "57b",
       "name": "King Prawn Thai Chilli Sauce",
-      "price": 5.40,
+      "price": 6.60,
       "modifiers": []
     },
     {
-      "id": "58c",
+      "id": "57c",
       "name": "Beef Thai Chilli Sauce",
-      "price": 5.10,
+      "price": 5.90,
       "modifiers": []
     },
     {
-      "id": "58d",
+      "id": "57d",
       "name": "Chicken Thai Chilli Sauce",
-      "price": 5.10,
+      "price": 5.90,
+      "modifiers": []
+    },
+    {
+      "id": "58",
+      "name": "Roast Chicken & Chips",
+      "price": 5.80,
       "modifiers": []
     },
     {
       "id": "59",
-      "name": "Roast Chicken & Chips",
-      "price": 5.30,
+      "name": "Chicken Omelette & Chips",
+      "price": 5.80,
       "modifiers": []
     },
     {
       "id": "60",
-      "name": "Chicken Omelette & Chips",
-      "price": 5.30,
+      "name": "Mushroom Omelette & Chips",
+      "price": 5.60,
       "modifiers": []
     },
     {
       "id": "61",
-      "name": "Mushroom Omelette & Chips",
-      "price": 5.10,
+      "name": "Special Omelette & Chips",
+      "price": 5.90,
       "modifiers": []
     },
     {
       "id": "62",
-      "name": "Special Omelette & Chips",
-      "price": 5.40,
+      "name": "Plain Omelette & Chips",
+      "price": 5.60,
       "modifiers": []
     },
     {
       "id": "63",
-      "name": "Plain Omelette & Chips",
-      "price": 5.10,
-      "modifiers": []
-    },
-    {
-      "id": "64",
       "name": "Egg Fried Rice",
-      "price": 2.50,
-      "modifiers": []
-    },
-    {
-      "id": "65",
-      "name": "Boiled Rice",
-      "price": 2.30,
-      "modifiers": []
-    },
-    {
-      "id": "66",
-      "name": "Fried Noodles",
-      "price": 2.90,
-      "modifiers": []
-    },
-    {
-      "id": "67",
-      "name": "Mixed Vegetables",
-      "price": 2.90,
-      "modifiers": []
-    },
-    {
-      "id": "68",
-      "name": "Mushrooms",
-      "price": 2.90,
-      "modifiers": []
-    },
-    {
-      "id": "69",
-      "name": "Beansprouts",
-      "price": 2.70,
-      "modifiers": []
-    },
-    {
-      "id": "70",
-      "name": "Prawn Crackers",
-      "price": 2.10,
-      "modifiers": []
-    },
-    {
-      "id": "71",
-      "name": "Mini Pancake Roll",
-      "price": 3.40,
-      "modifiers": []
-    },
-    {
-      "id": "72",
-      "name": "Chips",
-      "price": 2.20,
-      "modifiers": []
-    },
-    {
-      "id": "73",
-      "name": "Fried Bamboo Shoots & Water Chestnuts",
       "price": 2.80,
       "modifiers": []
     },
     {
-      "id": "74",
-      "name": "Mixed Vegetables in Cantonese Sauce",
+      "id": "64",
+      "name": "Boiled Rice",
+      "price": 2.60,
+      "modifiers": []
+    },
+    {
+      "id": "65",
+      "name": "Fried Noodles",
+      "price": 3.30,
+      "modifiers": []
+    },
+    {
+      "id": "66",
+      "name": "Mixed Vegetables",
+      "price": 3.30,
+      "modifiers": []
+    },
+    {
+      "id": "67",
+      "name": "Mushrooms",
       "price": 3.50,
       "modifiers": []
     },
     {
-      "id": "75a",
-      "name": "Banana Fritter",
-      "price": 2.70,
+      "id": "68",
+      "name": "Beansprouts",
+      "price": 3.20,
       "modifiers": []
     },
     {
-      "id": "75b",
+      "id": "69",
+      "name": "Prawn Crackers",
+      "price": 2.40,
+      "modifiers": []
+    },
+    {
+      "id": "70",
+      "name": "Chips",
+      "price": 2.50,
+      "modifiers": []
+    },
+    {
+      "id": "71",
+      "name": "Fried Bamboo Shoots & Water Chestnuts",
+      "price": 3.30,
+      "modifiers": []
+    },
+    {
+      "id": "72",
+      "name": "Mixed Vegetables in Cantonese Sauce",
+      "price": 4.00,
+      "modifiers": []
+    },
+    {
+      "id": "73a",
+      "name": "Banana Fritter",
+      "price": 3.20,
+      "modifiers": []
+    },
+    {
+      "id": "73b",
       "name": "Pineapple Fritter",
-      "price": 2.70,
+      "price": 3.20,
       "modifiers": []
     },
     {
       "id": "S1",
       "name": "S1 - 2 Persons",
-      "price": 19.80,
+      "price": 20.30,
       "modifiers": []
     },
     {
       "id": "S2a",
       "name": "S2 - 3 Persons",
-      "price": 28.00,
+      "price": 28.50,
       "modifiers": []
     },
     {
       "id": "S2b",
       "name": "S2 - 4 Persons",
-      "price": 35.00,
+      "price": 36.00,
       "modifiers": []
     },
     {
       "id": "SA",
       "name": "Set Dinner A",
-      "price": 8.30,
+      "price": 8.80,
       "modifiers": []
     },
     {
       "id": "SB",
       "name": "Set Dinner B",
-      "price": 16.50,
+      "price": 17.00,
       "modifiers": []
     },
     {
       "id": "SC",
       "name": "Set Dinner C",
-      "price": 24.50,
+      "price": 25.00,
       "modifiers": []
     },
     {
       "id": "SD",
       "name": "Set Dinner D",
-      "price": 35.00,
+      "price": 36.00,
       "modifiers": []
     },
     {
       "id": "SE",
       "name": "Set Dinner E",
-      "price": 41.00,
+      "price": 42.00,
       "modifiers": []
     }
   ]
